@@ -32,11 +32,17 @@ Boothbay Harbor buoy data is available from [https://dmr-maine.opendata.arcgis.c
 ```{r}
 library(bbhsst)
 
-fetch_bbh()
+x <- fetch_bbh()
+
+glimpse(x)
 ```
 
 
 ## Getting E01 data
+
+```{r}
+y <- fetch_E01()
+```
 
 
 
