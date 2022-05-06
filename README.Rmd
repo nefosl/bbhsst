@@ -1,0 +1,43 @@
+---
+title: "bbhsst"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Brief Description
+
+This package retrieves sea surface temperature (SST) from BBH and E01 buoys.
+
+## Package Requirements
+
++ [R v. 4.1+](https://www.r-project.org/)
++ [Rlang](https://cran.r-project.org/package=rlang)
++ [dplyr](https://cran.r-project.org/package=dplyr)
++ [readr](https://cran.r-project.org/package=readr)
++ [ggplot2](https://cran.r-project.org/package=ggplot2)
++ [jsonlite](https://cran.r-project.org/package=jsonlite)
++ [httr](https://cran.r-project.org/package=httr)
+
+## How to Install
+
+`remotes::install_github('nefosl/bbhsst')`
+
+## Getting BBH data
+
+Boothbay Harbor buoy data is available from [https://dmr-maine.opendata.arcgis.com/datasets/maine::mainedmr-boothbay-harbor-sea-surface-temperatures/about](https://dmr-maine.opendata.arcgis.com/datasets/maine::mainedmr-boothbay-harbor-sea-surface-temperatures/about).
+
+```{r}
+library(bbhsst)
+
+fetch_bbh()
+```
+
+
+## Getting E01 data
+
+
+
+## Plotting
