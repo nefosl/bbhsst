@@ -1,0 +1,19 @@
+Package: bbhsst
+Title: Serving BBH SST
+Description: Serving BBH and E01 SST, must end in period.
+Version: 0.1
+Depends:
+    R (>= 4.1)
+Imports:
+    rlang,
+    dplyr,
+    readr,
+    ggplot2,
+    jsonlite,
+    httr
+Encoding: UTF-8
+Maintainer: Laura Sofen <lsofen@bigelow.org>
+Author: Laura Sofen <lsofen@bigelow.org>
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 7.1.2
